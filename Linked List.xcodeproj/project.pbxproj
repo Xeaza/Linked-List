@@ -14,6 +14,7 @@
 		340F5AAB1A3F45B000795A0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 340F5AAA1A3F45B000795A0B /* Images.xcassets */; };
 		340F5AAE1A3F45B000795A0B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 340F5AAC1A3F45B000795A0B /* LaunchScreen.xib */; };
 		340F5ABA1A3F45B000795A0B /* Linked_ListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 340F5AB91A3F45B000795A0B /* Linked_ListTests.m */; };
+		340F5AC51A3F45D100795A0B /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 340F5AC41A3F45D100795A0B /* LinkedList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		340F5AB31A3F45B000795A0B /* Linked ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Linked ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		340F5AB81A3F45B000795A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		340F5AB91A3F45B000795A0B /* Linked_ListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Linked_ListTests.m; sourceTree = "<group>"; };
+		340F5AC31A3F45D100795A0B /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		340F5AC41A3F45D100795A0B /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				340F5AA21A3F45B000795A0B /* AppDelegate.m */,
 				340F5AA41A3F45B000795A0B /* ViewController.h */,
 				340F5AA51A3F45B000795A0B /* ViewController.m */,
+				340F5AC31A3F45D100795A0B /* LinkedList.h */,
+				340F5AC41A3F45D100795A0B /* LinkedList.m */,
 				340F5AA71A3F45B000795A0B /* Main.storyboard */,
 				340F5AAA1A3F45B000795A0B /* Images.xcassets */,
 				340F5AAC1A3F45B000795A0B /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				340F5AA61A3F45B000795A0B /* ViewController.m in Sources */,
 				340F5AA31A3F45B000795A0B /* AppDelegate.m in Sources */,
+				340F5AC51A3F45D100795A0B /* LinkedList.m in Sources */,
 				340F5AA01A3F45B000795A0B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
