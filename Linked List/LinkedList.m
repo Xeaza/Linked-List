@@ -8,6 +8,26 @@
 
 #import "LinkedList.h"
 
+@interface Node : NSObject
+
+@property (nonatomic, strong) id data;
+@property (nonatomic, strong) id next;
+
+@end
+
+@implementation Node
+
+- (instancetype)initWithObject:(id)data
+{
+    self = [super init];
+    if (self) {
+        self.data = data;
+        self.next = NULL;
+    }
+    return self;
+}
+
+@end
 @implementation LinkedList
 
 @end
