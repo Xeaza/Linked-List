@@ -18,6 +18,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    LinkedList *linkedList = [[LinkedList alloc] init];
+    [linkedList insert:[NSNumber numberWithInteger:5]];
+    [linkedList insert:[NSNumber numberWithInteger:23]];
+    [linkedList insert:[NSNumber numberWithInteger:13]];
+    [linkedList insert:@"hi"];
+
+    [linkedList remove:[NSNumber numberWithInteger:5]];
+    [linkedList search:@"hi"];
+    [linkedList display];
+    [linkedList length];
+    [linkedList remove:[NSNumber numberWithInteger:13]];
+
+    [linkedList remove:[NSNumber numberWithInteger:4]];
+
+    [linkedList display];
+
+
 }
 
 - (void)didReceiveMemoryWarning {

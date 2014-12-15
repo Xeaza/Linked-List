@@ -10,4 +10,10 @@
 
 @interface LinkedList : NSObject
 
+- (void)insert:(id)data;
+- (void)remove:(id)data;
+- (void)display;
+- (void)search:(id)value;
+- (void)length;
+
 @end
